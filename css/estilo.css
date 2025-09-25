@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 30px;
+    width: fit-content;
+  }
+  
+  /* Cabeçalho maior */
+  .header {
+    border: 2px solid black;
+    width: 500px;
+    height: 80px;
+    margin: 0 auto 30px auto;
+  }
+  
+  /* Área principal */
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Menus laterais maiores */
+  .sidebar {
+    border: 2px solid black;
+    width: 100px;
+    height: 250px;
+  }
+  
+  /* Área central com cubos em 2x2 */
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 20px;
+    padding: 0 30px;
+  }
+  
+  /* Cubos maiores */
+  .box {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+  }
+  
